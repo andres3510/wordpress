@@ -1,0 +1,2 @@
+2023-09-20T14:20:53+00:00 CRITICAL Maximum execution time of 300 seconds exceeded en C:\laragon\www\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
