@@ -23,6 +23,11 @@
                     </a>
                 </div>
                 <div class="encabezado__menu col-6 col-md-5">
+                    <?php wp_nav_menu(
+                        array(
+                            "menu" => "menu-principal"
+                        )
+                    ) ?>
                     <ul>
                         <li class="encabezado__item current"><a href="#">All</a></li>
                         <li class="encabezado__item"><a href="#">Clothes</a></li>
@@ -42,6 +47,11 @@
                 </div>
             </div>
             <div class="encabezado__menu-responsive">
+                <?php wp_nav_menu(
+                    array(
+                        "menu" => "menu-responsive"
+                    )
+                    ); ?>
                 <ul>
                     <li class="encabezado__item current"><a href="#">All</a></li>
                     <li class="encabezado__item"><a href="#">Clothes</a></li>
